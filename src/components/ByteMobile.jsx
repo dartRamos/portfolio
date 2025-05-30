@@ -46,7 +46,7 @@ const ImageSlider = () => {
       <div className="slider-main">
         <div className="showcase-links">
           <a
-            href="https://github.com/dartRamos/byte-to-bite-mobileapp"
+            href="https://github.com/dartRamos/byte-to-bite-mobile"
             target="_blank"
             rel="noopener noreferrer"
             className="showcase-button"
