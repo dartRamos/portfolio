@@ -11,7 +11,7 @@
 .showcase-links {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 3rem;
   margin-bottom: 2rem;
   color: white;
   text-align: center;
@@ -170,7 +170,7 @@
   
   .device.tablet {
     width: 200px;
-    right: -15px;
+    right: -25px;
     z-index: 2;
     top: 90px;
   }
@@ -178,7 +178,7 @@
   .device.mobile {
     width: 75px;
     z-index: 2;
-    left: 10px;
+    left: -25px;
     top: 75px;
   }
 
@@ -193,7 +193,7 @@
   }
 
   .slider-links h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .slider-links a {

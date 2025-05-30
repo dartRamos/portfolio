@@ -14,8 +14,6 @@ import recipesearch from '/gifs/RecipeSearch.gif';
 import recipesearchStill from '/gifs/RecipeSearch_still.png';
 
 const ImageSlider = () => {
-  const containerRef = useRef();
-  const isLandscape = window.innerWidth > window.innerHeight;
 
   const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4]);
 
@@ -37,10 +35,10 @@ const ImageSlider = () => {
 
   const gifVariants = {
     center: { x: '0%', scale: 1, zIndex: 5 },
-    left1: { x: isLandscape ? '-80px' : '-150px', scale: 0.8, zIndex: 2 },
-    left: { x: isLandscape ? '-160px' : '-300px', scale: 0.5, zIndex: 1 },
-    right: { x: isLandscape ? '160px' : '300px', scale: 0.5, zIndex: 1 },
-    right1: { x: isLandscape ? '80px' : '150px', scale: 0.8, zIndex: 2 },
+    left1: { x: '-40%', scale: 0.8, zIndex: 2 },
+    left: { x: '-80%', scale: 0.5, zIndex: 1 },
+    right: { x: '80%', scale: 0.5, zIndex: 1 },
+    right1: { x: '40%', scale: 0.8, zIndex: 2 },
   };
 
   return (
