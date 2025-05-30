@@ -1,0 +1,210 @@
+/* Container for the whole slider section */
+.image-slider-container {
+  width: 100%;
+  padding: 2rem 0;
+  background: black; /* dark blue background */
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main flex column container for everything */
+.slider-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.showcase-button:hover {
+  background-color: #ffd000;
+  color: #36013F;
+}
+
+.showcase-button {
+  background-color: transparent;
+  border: 2px solid #ffd000;
+  color: #ffd000;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Carousel container */
+.slider-carousel {
+  position: relative;
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Carousel images style */
+.carousel-img {
+  position: absolute;
+  max-width: 380px;
+  max-height: 750px;
+  border-radius: 12px;
+  user-select: none;
+  cursor: pointer;
+  object-fit: cover;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Text description container below carousel */
+.slider-text {
+  max-width: 900px;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.slider-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #e0e7ff;
+}
+
+.slider-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+}
+
+.slider-text ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #cbd5e1;
+}
+
+.slider-text ul li {
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+}
+
+/* Next button below carousel */
+.slider-button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.slider-button button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slider-button button:hover {
+  background-color: #6366f1;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+  .showcase-links {
+    margin-top: 60px; /* adjust this number to move it closer */
+  }
+
+
+  .carousel-img {
+    max-width: 380px;
+    max-height: 550px;
+  }
+
+  .slider-carousel {
+    height: 600px;
+    width: 100%;
+
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .carousel-img {
+    max-width: 500px;
+    max-height: 300px;
+  }
+
+  .slider-carousel {
+    height: 300px;
+
+  }
+
+}
+
+/* Responsive styling for smaller screens */
+@media only screen and (max-width: 767px) {
+  .slider-carousel {
+    height: 420px;
+  }
+
+  .carousel-img {
+    max-height: 320px;
+  }
+
+  .slider-links {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .slider-links h2 {
+    font-size: 1.5rem;
+  }
+
+  .slider-links a {
+    font-size: 1.2rem;
+  }
+
+  .slider-text h1 {
+    font-size: 2rem;
+  }
+
+  .slider-text ul {
+    max-width: 100%;
+  }
+}
+
+/* Mobile Landscape */
+@media only screen and (max-width: 767px) and (orientation: landscape) { 
+
+  .carousel-img {
+    max-height: 240px;
+    max-width: 380px;
+  }
+
+  .slider-carousel {
+    height: 280px;
+  }
+
+  .slider-button {
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .slider-button button {
+    padding: 0.2rem 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+}
+

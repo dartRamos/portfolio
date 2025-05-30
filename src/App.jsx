@@ -1,15 +1,14 @@
 import React from 'react'
 import AboutMe from './components/AboutMe'
-import ImageSlider from './components/ImageSlider'
+import ByteMobile from './components/ByteMobile'
+import ByteWeb from './components/ByteWeb'
 
 const App = () => {
   return (
     <main>
-      <div>
         <AboutMe />
-        <ImageSlider />
-        <section className='h-[25vh] bg-purple-950'></section>
-      </div>
+        <ByteMobile />
+        <ByteWeb />
     </main>
   )
 }
