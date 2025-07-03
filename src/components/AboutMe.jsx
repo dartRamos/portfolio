@@ -6,7 +6,7 @@ import "../styling/Aboutme.css";
 
 const Aboutme = () => {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: false, margin: "-300px" });
+  const isInView = useInView(containerRef, { once: false, rootMargin: "-300px" });
 
   const letterAnimation = {
     hidden: { y: 100, opacity: 0, color: "#0000FF", fontWeight: 300 },
@@ -54,6 +54,21 @@ const Aboutme = () => {
             </div>
           ))}
         </h1>
+        <div className="contact-info">
+        Email:{" "}
+          <span className="contact-detail">alessandro.ramos.it@gmail.com</span>{" | "}
+          Phone:{" "}
+          <span className="contact-detail">(416)878-5924</span>{" | "}
+          Linkedin:{" "}
+          <a
+            href="https://www.linkedin.com/in/d-alessandro-ramos/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-detail"
+          >
+            https://www.linkedin.com/in/d-alessandro-ramos/
+          </a>
+        </div>
 
         <div>
         {/* Main Content */}
@@ -80,19 +95,17 @@ const Aboutme = () => {
               Hello, my name is{" "}
               <span className="highlight">Alessandro Ramos</span>, but you can
               call me <span className="highlight">Dro</span>! I'm a bootcamp-trained
-              full-stack developer with 500+ hours of hands-on coding experience
+              full-stack developer with <span className="highlight">1+ years</span> of hands-on coding experience
               and 7+ years in operational leadership. I specialize in building
               and deploying responsive web applications using{" "}
               <span className="highlight">
                 React, React Native, Node.js, Express, APIs (REST/HTTP),
-                SASS/SCSS or Tailwind, WebSockets and PostgreSQL
+                SASS/SCSS or Tailwind, WebSockets and PostgreSQL{" "}
               </span>
-              .
+               and so much more.
             </p>
             <p>
-              I’ve developed multiple full-stack projects, including a real-time quiz
-              app and a task scheduler, and I’m passionate about automation,
-              intuitive user experiences, and learning by building.
+            I’ve developed multiple full-stack projects, including an e-commerce platform, a recipe discovery app, and a real-time task scheduler. I’m passionate about building intuitive user experiences, leveraging real-time technologies, and solving real-world problems through code.
             </p>
             <p>
               I’m currently seeking opportunities as a junior developer, QA

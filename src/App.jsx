@@ -1,14 +1,19 @@
 import React from 'react'
 import AboutMe from './components/AboutMe'
-import ByteMobile from './components/ByteMobile'
+import ByteToBite from './components/ByteMobile'
 import ByteWeb from './components/ByteWeb'
+import Gleam from './components/Gleam'
+import './assets/fonts/fonts.css';
+import './index.css';
+
 
 const App = () => {
   return (
     <main>
         <AboutMe />
-        <ByteMobile />
+        <ByteToBite />
         <ByteWeb />
+        <Gleam />
     </main>
   )
 }

@@ -4,7 +4,6 @@
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
-  font-family: 'Space Grotesk', sans-serif;
   color: white;
 }
 
@@ -94,6 +93,30 @@
   font-weight: 600;
 }
 
+.contact-info {
+  text-align: center;
+  margin-top: -20rem;
+  margin-bottom: 15rem;
+  z-index: 11;
+  position: relative;
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-detail {
+  color: #22d3ee;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-detail:hover {
+  color: #ffd000;
+}
+
 /* Tablet (768px–1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .falling-header {
@@ -109,6 +132,13 @@
   .aboutme-text h2 {
     font-size: 2rem;
   }
+
+
+  .contact-info {
+    flex-wrap: wrap;
+    padding-top: 6rem;
+  }
+
 }
 
 /* Mobile (up to 767px) */
@@ -139,4 +169,13 @@
     font-size: 2rem;
     margin-bottom: 15rem;
   }
+
+
+  .contact-info {
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-top: 6rem;
+    font-size: 0.9rem;
+  }
+
 }

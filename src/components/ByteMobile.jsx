@@ -90,7 +90,9 @@ const ImageSlider = () => {
 
         {/* Description */}
         <div className="slider-text">
-          <h1>Byte to Bite: A React Native Expo Project</h1>
+        <h1>
+          <span className="project-name">Byte to Bite:</span> A React Native Expo Project
+        </h1>
           <p>
             A mobile recipe app where users can post, save, and share their favorite recipes...
           </p>

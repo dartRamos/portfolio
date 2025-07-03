@@ -1,6 +1,10 @@
 
 @import "tailwindcss";
 
-@theme{
-  --font-space: Space
+:root {
+  --font-space: 'Space', sans-serif;
+}
+
+body {
+  font-family: var(--font-space);
 }
