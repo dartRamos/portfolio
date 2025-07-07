@@ -28,12 +28,11 @@ const Aboutme = () => {
 
   return (
     <section className="aboutme-section">
-      {/* Background */}
+
       <div className="background-image-wrapper">
         <img src={gif} alt="starry sky" className="background-image" />
       </div>
 
-      {/* Overlay Content */}
       <div className="content-overlay">
         {/* Falling Header */}
         <h1 className="falling-header">
@@ -71,9 +70,8 @@ const Aboutme = () => {
         </div>
 
         <div>
-        {/* Main Content */}
+
         <div ref={containerRef} className="aboutme-content">
-          {/* Photo */}
           <motion.img
             src={droPhoto}
             alt="Photo of Alessandro"
@@ -83,7 +81,7 @@ const Aboutme = () => {
             className="aboutme-photo"
             />
 
-          {/* Text */}
+          
           <motion.div
             initial={{ x: 600, opacity: 0 }}
             animate={isInView ? { x: 0, opacity: 1 } : {}}

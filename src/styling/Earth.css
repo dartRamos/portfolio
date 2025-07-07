@@ -1,6 +1,6 @@
-.showcase-container {
+.earth-showcase-container {
   position: relative;
-  background-color: #1A002A;
+  background-color: #4D0073;
   padding: 4rem 2rem;
   overflow: hidden;
   display: flex;
@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.showcase-links {
+.earth-showcase-links {
   display: flex;
   justify-content: center;
   gap: 3rem;
@@ -18,53 +18,53 @@
   flex-wrap: wrap;
 }
 
-.showcase-links h2 {
+.earth-showcase-links h2 {
   margin-bottom: 0.5rem;
   font-size: 1.8rem;
 }
 
-.device-wrapper {
+.earth-device-wrapper {
   position: relative;
   width: 100%;
   height: 700px;
   margin-bottom: 2rem;
 }
 
-.device img {
+.earth-earth-device img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.device.web {
-  width: 900px;
+.earth-device.web {
+  width: 1100px;
   z-index: 1;
   top: 10px;
-  left: 50%;
+  left: 60%;
   transform: translateX(-50%);
   position: absolute;
   overflow: hidden;
 }
 
-.device.tablet {
-  width: 600px;
+.earth-device.tablet {
+  width: 500px;
   z-index: 2;
-  top: 170px;
+  top: 240px;
   right: calc(50% - 1200px / 2 - 150px);
   position: absolute;
   overflow: hidden;
 }
 
-.device.mobile {
-  width: 250px;
+.earth-device.mobile {
+  width: 450px;
   z-index: 2;
-  top: 70px;
-  right: calc(50% + 1000px / 2 - 150px);
+  top: 380px;
+  right: calc(50% + 600px / 2 - 150px);
   position: absolute;
   overflow: hidden;
 }
 
-.showcase-button {
+.earth-showcase-button {
   background-color: #ffdd57;
   color: #36013F;
   padding: 0.5rem 0.75rem;
@@ -78,13 +78,13 @@
   text-align: center;
 }
 
-.showcase-button:hover {
+.earth-showcase-button:hover {
   background-color: #ffd000;
   color: #36013F;
 }
 
 @media only screen and (min-width: 1441px) {
-  .device-wrapper {
+  .earth-device-wrapper {
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -92,23 +92,23 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .device-wrapper {
+  .earth-device-wrapper {
     height: 490px;
   }
   
-  .device.web {
+  .earth-device.web {
     width: 750px;
     top: 10px;
     left: 50%;
   }
   
-  .device.tablet {
+  .earth-device.tablet {
     width: 450px;
     top: 170px;
     right: 30px;
   }
   
-  .device.mobile {
+  .earth-device.mobile {
     width: 175px;
     z-index: 2;
     top: 125px;
@@ -118,19 +118,19 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-  .device.web {
+  .earth-device.web {
     width: 500px;
     top: -15px;
   }
   
-  .device.tablet {
+  .earth-device.tablet {
     width: 275px;
     right: 45px;
     z-index: 2;
     top: 93px;
   }
   
-  .device.mobile {
+  .earth-device.mobile {
     width: 105px;
     z-index: 2;
     left: 150px;
@@ -138,12 +138,12 @@
   }
 
 
-  .device-wrapper {
+  .earth-device-wrapper {
     position: relative;
     height: 275px;
   }
 
-  .slider-links {
+  .earth-slider-links {
     flex-direction: column;
     gap: 1.5rem;
   }
@@ -154,47 +154,47 @@
 /* Mobile */
 @media only screen and (max-width: 767px) {
 
-  .device.web {
+  .earth-device.web {
     width: 300px;
   }
   
-  .device.tablet {
+  .earth-device.tablet {
     width: 200px;
     right: -25px;
     z-index: 2;
     top: 90px;
   }
   
-  .device.mobile {
+  .earth-device.mobile {
     width: 75px;
     z-index: 2;
     left: -25px;
     top: 75px;
   }
 
-  .device-wrapper {
+  .earth-device-wrapper {
     position: relative;
     height: 250px;
   }
 
-  .slider-links {
+  .earth-slider-links {
     flex-direction: column;
     gap: 1.5rem;
   }
 
-  .slider-links h2 {
+  .earth-slider-links h2 {
     font-size: 1.2rem;
   }
 
-  .slider-links a {
+  .earth-slider-links a {
     font-size: 1.2rem;
   }
 
-  .slider-text h1 {
+  .earth-slider-text h1 {
     font-size: 2rem;
   }
 
-  .slider-text ul {
+  .earth-slider-text ul {
     max-width: 100%;
   }
 }
@@ -203,23 +203,23 @@
 /* Mobile Landscape */
 @media only screen and (max-width: 767px) and (orientation: landscape) {
 
-  .device.web {
+  .earth-device.web {
     width: 550px;
   }
 
-  .device.tablet {
+  .earth-device.tablet {
     width: 300px;
     top: 150px;
     right: 10px;
   }
 
-  .device.mobile {
+  .earth-device.mobile {
     width: 120px;
     top: 115px;
     left: 15px;
   }
 
-  .device-wrapper {
+  .earth-device-wrapper {
     height: 350px;
   }
 

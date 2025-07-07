@@ -166,7 +166,7 @@
   }
 
   .falling-header {
-    font-size: 2rem;
+    font-size: rem;
     margin-bottom: 15rem;
   }
 
@@ -179,3 +179,5 @@
   }
 
 }
+
+

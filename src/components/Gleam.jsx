@@ -31,7 +31,7 @@ export default function Showcase() {
           rel="noopener noreferrer"
           className="gleam-showcase-button"
         >
-          Web Page
+          Site Coming Soon
         </a>
       </div>
   
