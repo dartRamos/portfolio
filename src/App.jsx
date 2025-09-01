@@ -13,9 +13,9 @@ const App = () => {
     <main>
         <AboutMe />
         <ByteToBite />
-        <ByteWeb />
-        <Gleam />
         <Earth />
+        <Gleam />
+        <ByteWeb />
     </main>
   )
 }

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import webImage from '../assets/earth.gif';
-import tabletImage from '../assets/gleam-tablet.png';
-import mobileImage from '../assets/gleam-phone.png';
+import tabletImage from '../assets/earth-tablet.png';
+import mobileImage from '../assets/earth-phone.png';
 import { motion, useInView } from "framer-motion";
 import "../styling/Earth.css"
 
@@ -23,12 +23,12 @@ export default function Showcase() {
         </a>
 
         <a
-          href="https://byte-to-bite-webapp.netlify.app/"
+          href="https://www.earthtableco.ca/"
           target="_blank"
           rel="noopener noreferrer"
           className="earth-showcase-button"
         >
-          Site Coming Soon
+          Website
         </a>
       </div>
 
@@ -54,7 +54,7 @@ export default function Showcase() {
             className='earth-version'
           />
         </div>
-        <div className="earth-device mobile">
+        <div className="device mobile">
           <motion.img
             src={mobileImage}
             alt="Mobile version"
@@ -70,7 +70,7 @@ export default function Showcase() {
       <div className="slider-text">
         <h1>
           <span className="project-name">Earth Table:</span>
-          {" "}Custom E-Commerce Site<span className='project-name'></span><span className="project-name">{" "}(In Progress)</span>
+          {" "}Custom E-Commerce Site<span className='project-name'></span><span className="project-name"></span>
         </h1>
         <p>
         A holistic e-commerce platform for Earth Table, a personal chef and meal prep service offering organic, nutrient-dense, seed oil-free meals.
