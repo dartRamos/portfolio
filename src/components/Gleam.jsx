@@ -26,12 +26,12 @@ export default function Showcase() {
         </a>
 
         <a
-          href="https://byte-to-bite-webapp.netlify.app/"
+          href="https://gleamproject.onrender.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="gleam-showcase-button"
         >
-          Site Coming Soon
+          Site (In Progress)
         </a>
       </div>
   
