@@ -11,7 +11,7 @@ export default function Showcase() {
 
   return (
     <div className="earth-showcase-container">
-      {/* Links Above Images */}
+
       <div className="earth-showcase-links">
         <a
           href="https://github.com/TayrineSoares/earth-table"
@@ -32,7 +32,6 @@ export default function Showcase() {
         </a>
       </div>
 
-      {/* Image Section */}
       <div className="earth-device-wrapper">
         <div ref={containerRef} className="earth-device web">
           <motion.img
@@ -54,7 +53,7 @@ export default function Showcase() {
             className='earth-version'
           />
         </div>
-        <div className="device mobile">
+        <div className="earth-device mobile">
           <motion.img
             src={mobileImage}
             alt="Mobile version"
@@ -66,7 +65,6 @@ export default function Showcase() {
         </div>
       </div>
 
-      {/* Description Below */}
       <div className="slider-text">
         <h1>
           <span className="project-name">Earth Table:</span>

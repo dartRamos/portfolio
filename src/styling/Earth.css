@@ -1,11 +1,13 @@
 .earth-showcase-container {
   position: relative;
-  background-color: #4D0073;
   padding: 4rem 2rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 .earth-showcase-links {
@@ -37,29 +39,29 @@
 }
 
 .earth-device.web {
-  width: 1100px;
+  width: 900px;
   z-index: 1;
   top: 10px;
-  left: 60%;
+  left: 50%;
   transform: translateX(-50%);
   position: absolute;
   overflow: hidden;
 }
 
 .earth-device.tablet {
-  width: 500px;
+  width: 600px;
   z-index: 2;
-  top: 240px;
+  top: 170px;
   right: calc(50% - 1200px / 2 - 150px);
   position: absolute;
   overflow: hidden;
 }
 
 .earth-device.mobile {
-  width: 450px;
+  width: 280px;
   z-index: 2;
-  top: 380px;
-  right: calc(50% + 600px / 2 - 150px);
+  top: 70px;
+  right: calc(50% + 1000px / 2 - 150px);
   position: absolute;
   overflow: hidden;
 }

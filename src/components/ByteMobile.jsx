@@ -63,7 +63,6 @@ const ImageSlider = () => {
           </a>
         </div>
 
-        {/* Carousel */}
         <div className="slider-carousel">
           {gifs.map((item, index) => {
             const position = positions[positionIndexes[index]];
@@ -83,12 +82,10 @@ const ImageSlider = () => {
           })}
         </div>
 
-        {/* Next Button */}
         <div className="slider-button">
           <button onClick={handleNext}>Next Slide</button>
         </div>
 
-        {/* Description */}
         <div className="slider-text">
         <h1>
           <span className="project-name">Byte to Bite:</span> A React Native Expo Project

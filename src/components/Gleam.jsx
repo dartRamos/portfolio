@@ -14,7 +14,7 @@ export default function Showcase() {
 
   return (
     <div className="gleam-showcase-container">
-      {/* Links Above Images */}
+
       <div className="gleam-showcase-links">
         <a
           href="https://github.com/dartRamos/byte-to-bite-webapp"
@@ -35,7 +35,6 @@ export default function Showcase() {
         </a>
       </div>
   
-      {/* Existing Image Section */}
       <div className="gleam-device-wrapper">
         <div ref={containerRef} className="gleam-device web">
           <motion.img 
@@ -57,19 +56,8 @@ export default function Showcase() {
             className='gleam-version' 
           />
         </div>
-        <div className="gleam-device mobile">
-          <motion.img 
-            src={mobileImage} 
-            alt="Mobile version"
-            initial={{ x: -200, opacity: 0}}
-            animate={isInView ? { x: 0, opacity: 1} : {}}
-            transition={{ duration: 1.5, ease: "backInOut"}}
-            className='gleam-version'
-          />
-        </div>
       </div>
   
-      {/* Description Below */}
       <div className="slider-text">
         <h1>
           <span className="project-name">Gleam:</span>

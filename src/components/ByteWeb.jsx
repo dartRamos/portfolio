@@ -14,7 +14,7 @@ export default function Showcase() {
 
   return (
     <div className="showcase-container">
-      {/* Links Above Images */}
+
       <div className="showcase-links">
         <a
           href="https://github.com/dartRamos/byte-to-bite-webapp"
@@ -35,7 +35,6 @@ export default function Showcase() {
         </a>
       </div>
   
-      {/* Existing Image Section */}
       <div className="device-wrapper">
         <div ref={containerRef} className="device web">
           <motion.img 
@@ -69,7 +68,6 @@ export default function Showcase() {
         </div>
       </div>
   
-      {/* Description Below */}
       <div className="slider-text">
         <h1>
           <span className="project-name">Byte to Bite:</span>{" "}Web Recipe App<span className='project-name'></span>

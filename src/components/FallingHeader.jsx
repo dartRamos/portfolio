@@ -20,7 +20,7 @@ const FallingHeader = ({ text }) => {
   };;
 
   return (
-    <h1 className="min-w-100 min-h-100 font-space text-8xl text-white flex space-x-1 mb-75">
+    <h1 className="min-w-100 font-space text-8xl text-white flex space-x-1 mb-10">
       {text.split("").map((char, i) =>
         <motion.span
           key={i}

@@ -1,11 +1,13 @@
 .showcase-container {
   position: relative;
-  background-color: #1A002A;
   padding: 4rem 2rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 .showcase-links {
@@ -37,7 +39,7 @@
 }
 
 .device.web {
-  width: 900px;
+  width: 860px;
   z-index: 1;
   top: 10px;
   left: 50%;
