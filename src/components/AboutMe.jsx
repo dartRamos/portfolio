@@ -50,12 +50,14 @@ const Aboutme = () => {
               >
                 <p>
                   Hello! My name is <span className="highlight">Alessandro Ramos</span>, also known as <span className="highlight">Dro</span>. 
-                  I’m a bootcamp-trained full-stack developer with <span className="highlight">1+ years</span> of experience building real-world web and mobile applications. 
-                  I have <span className="highlight">7+ years</span> in operational leadership, which gives me strong problem-solving and project management skills.
+                  I’m a full stack developer focused on building clean, scalable, real-world applications. Over the past year I’ve worked across 
+                  <span className="highlight">React, Node.js, PostgreSQL, and cloud deployments</span>, while also improving my debugging, backend reasoning, and system design skills.
                 </p>
-                    <p>
-                      I’m currently seeking opportunities as a <span className="highlight">junior software developer</span>, QA automation engineer, or in an <span className="highlight">apprenticeship program</span> with a growth-focused team.
-                    </p>
+
+                <p>
+                  I’m currently looking for opportunities as a <span className="highlight">full stack or software engineer</span> on a team where I can grow, take ownership, and contribute to meaningful products. 
+                  I have a strong learning mindset, a background in leadership, and a passion for building things that solve real problems.
+                </p>
                     <div className="click-to-tech">
                       <span className="highlight">Click to see tech stack!</span>
                     </div>
@@ -65,14 +67,16 @@ const Aboutme = () => {
                 <div className="flip-card-back">
                   <h2>Tech Stack & Expertise</h2>
                   <ul>
-                  <li><strong>Frontend:</strong> React, React Native, Tailwind, SASS/SCSS, HTML5, CSS3, JavaScript</li>
-                  <li><strong>Backend:</strong> Node.js, Express, REST APIs, WebSockets, Python</li>
-                  <li><strong>Database:</strong> PostgreSQL, relational design, queries, indexing, data modeling</li>
-                  <li><strong>DevOps & Tools:</strong> Git, GitHub, CI/CD, Docker, GCP, Netlify, automated deployments</li>
-                  <li><strong>Testing & QA:</strong> Jest, React Testing Library, unit/integration testing, code reviews</li>
-                  <li><strong>Other:</strong> Agile/Scrum, project management, teamwork, problem-solving, UX/UI principles</li>
+                    <li><strong>Frontend:</strong> React, Next.js, React Native, Tailwind, SASS/SCSS, HTML5, CSS3, JavaScript, TypeScript</li>
+                    <li><strong>Backend:</strong> Node.js, Express, REST APIs, WebSockets, Python, Flask fundamentals</li>
+                    <li><strong>Database:</strong> PostgreSQL, relational schema design, data modeling, indexing, optimization</li>
+                    <li><strong>Cloud & DevOps:</strong> Git, GitHub, CI/CD pipelines, Docker, Google Cloud Platform, Netlify, Vercel</li>
+                    <li><strong>Testing & QA:</strong> Jest, React Testing Library, debugging, unit and integration testing</li>
+                    <li><strong>Other Skills:</strong> Agile workflows, project ownership, cross-team collaboration, UX/UI principles, strong problem solving</li>
                   </ul>
-                  <p>Click the card to see my bio again!</p>
+                  <div className="click-to-tech">
+                    <span className="highlight">Click to see bio!</span>
+                  </div>
                 </div>
               </div>
             </div>
